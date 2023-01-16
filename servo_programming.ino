@@ -10,7 +10,7 @@ void setup()
 }
 void loop() 
 { 
-  for(postwo = 180; postwo >= 0; postwo -= 1) 
+  for(postwo = 180; postwo >= 0; postwo = 1) 
   for(pos = 0; pos <= 180; pos += 180)    
   {                                  
     myservo.write(pos);             
@@ -18,7 +18,7 @@ void loop()
     delay(100);                      
   } 
   delay(1);
-  for(postwo = 0; postwo <= 180; postwo -= 1) 
+  for(postwo = 0; postwo <= 180; postwo = 1) 
   for(pos = 0; pos>=180; pos-=180)     
   {                                
     myservo.write(pos);              
