@@ -1,2 +1,2 @@
 # program_lidar
-programin for lidar sensor for readings
+programing for lidar sensor with servo motors
